@@ -6,6 +6,7 @@ toolchain go1.24rc1
 
 require (
 	github.com/cloudflare/circl v1.5.0
+	google.golang.org/protobuf v1.36.1
 	lukechampine.com/blake3 v1.3.0
 )
 

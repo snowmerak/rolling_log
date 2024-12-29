@@ -1,0 +1,9 @@
+syntax = 'proto3';
+
+package model.logentry;
+
+option go_package = "github.com/snowmerak/rolling_log/gen/logentry";
+
+message LogEntry {
+  int64 unix_time_epoch = 1;
+}
